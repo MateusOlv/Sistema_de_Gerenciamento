@@ -1,6 +1,7 @@
 import InputField from "./InputField";
 import PropTypes from "prop-types";
 import styles from "./Content1.module.css";
+import Registrar from "../../pages/Registro/Registrar";
 
 const Content1 = ({ className = "" }) => {
   return (
@@ -30,7 +31,7 @@ const Content1 = ({ className = "" }) => {
         </div>
         <div className={styles.button}>
           <div className={styles.buttonBase}>
-            <div className={styles.buttonLabel}>Esqueci a senha</div>
+            <a href="#" className={styles.buttonLabel}>Esqueci a senha</a>
           </div>
         </div>
       </div>
@@ -44,7 +45,7 @@ const Content1 = ({ className = "" }) => {
         <div className={styles.text}>Não tem uma conta?</div>
         <div className={styles.button}>
           <div className={styles.buttonBase}>
-            <div className={styles.text1}>Registrar-se</div>
+            <a href="../../pages/Registro/Registrar.js" className={styles.text1}>Registrar-se</a>
           </div>
         </div>
       </div>
