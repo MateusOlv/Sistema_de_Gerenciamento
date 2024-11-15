@@ -9,6 +9,7 @@ import Login from "./pages/Login/Login";
 import Registrar from "./pages/Registro/Registrar";
 import Inicio from "./pages/Inicio/Inicio";
 import PainelDeControle from "./pages/PainelDeControle/PainelDeControle";
+import Perfil from "./pages/Perfil/Perfil";
 
 function App() {
   const action = useNavigationType();
@@ -52,6 +53,7 @@ function App() {
       <Route path="/pages/Registro/Registrar.js" element={<Registrar/>}/>
       <Route path="/pages/Inicio/Inicio.js" element={<Inicio/>}/>
       <Route path="/pages/PainelDeControle/PainelDeControle.js" element={<PainelDeControle/>}/>
+      <Route path="/pages/Perfil/Perfil.js" element={<Perfil/>}/>
     </Routes>
   );
 }

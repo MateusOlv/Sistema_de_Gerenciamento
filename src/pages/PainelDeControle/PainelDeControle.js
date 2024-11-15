@@ -62,16 +62,18 @@ const PainelDeControle = () => {
                   itemTypeColor="#5d6679"
                   itemTypeTextDecoration="unset"
                 />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/suppliers1.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Perfil"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
+                <a href="../../pages/Perfil/Perfil.js">
+                  <ListMenu
+                    listMenuAlignSelf="stretch"
+                    listMenuWidth="unset"
+                    home="/suppliers1.svg"
+                    homeIconOverflow="unset"
+                    homeIconMargin="unset"
+                    itemType="Perfil"
+                    itemTypeColor="#5d6679"
+                    itemTypeTextDecoration="unset"
+                  />
+                </a>
               </nav>
             </div>
           </div>
