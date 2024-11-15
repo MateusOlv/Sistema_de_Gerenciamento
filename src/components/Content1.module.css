@@ -1,0 +1,160 @@
+.form {
+  align-self: stretch;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.checkbox1 {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+}
+.checkboxLabel {
+  position: relative;
+  font-size: var(--body-2-medium-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-1-regular);
+  color: var(--grey-grey-700);
+  text-align: left;
+}
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.buttonLabel {
+  position: relative;
+  font-size: var(--body-2-medium-size);
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--body-1-regular);
+  color: var(--primary-primary-600);
+  text-align: left;
+  display: inline-block;
+  min-width: 110px;
+}
+.button,
+.buttonBase,
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.row {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.row {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.submitButtonLabel {
+  position: relative;
+  font-size: var(--body-1-regular-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-1-regular);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 48px;
+}
+.buttonBase1 {
+  height: 44px;
+  flex: 1;
+  box-shadow: var(--shadow-xs);
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-primary-600);
+  border: 1px solid var(--primary-primary-600);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-136xl);
+  max-width: 100%;
+}
+.button1,
+.socialButtonGroups {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.socialButtonGroups {
+  height: 20px;
+  display: none;
+}
+.text,
+.text1 {
+  position: relative;
+  font-size: var(--body-2-medium-size);
+  line-height: 20px;
+  font-family: var(--body-1-regular);
+  color: var(--grey-grey-500);
+  text-align: left;
+}
+.text1 {
+  font-weight: 500;
+  color: var(--primary-primary-600);
+  display: inline-block;
+  min-width: 84px;
+}
+.content,
+.row1 {
+  display: flex;
+  align-items: flex-start;
+}
+.row1 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-48xl);
+  gap: var(--gap-9xs);
+  z-index: 1;
+}
+.content {
+  margin: 0;
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-sm);
+  box-sizing: border-box;
+  gap: var(--gap-5xl-7);
+  max-width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .row {
+    flex-wrap: wrap;
+  }
+  .buttonBase1,
+  .row1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .row1 {
+    flex-wrap: wrap;
+  }
+}
