@@ -47,7 +47,7 @@ const Content = ({ className = "" }) => {
       </div>
       <button className={styles.button}>
         <div className={styles.buttonBase}>
-          <div className={styles.text}>Registrar</div>
+          <a href="../../pages/Inicio/Inicio.js" className={styles.text}>Registrar</a>
         </div>
       </button>
       <div className={styles.row}>

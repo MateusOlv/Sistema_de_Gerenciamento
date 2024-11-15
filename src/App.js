@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Login from "./pages/Login/Login";
 import Registrar from "./pages/Registro/Registrar";
+import Inicio from "./pages/Inicio/Inicio";
 
 function App() {
   const action = useNavigationType();
@@ -48,6 +49,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/pages/Registro/Registrar.js" element={<Registrar/>}/>
+      <Route path="/pages/Inicio/Inicio.js" element={<Inicio/>}/>
     </Routes>
   );
 }
