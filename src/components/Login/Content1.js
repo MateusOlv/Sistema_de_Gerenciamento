@@ -37,7 +37,7 @@ const Content1 = ({ className = "" }) => {
       </div>
       <button className={styles.button1}>
         <div className={styles.buttonBase1}>
-          <div className={styles.submitButtonLabel}>Entrar</div>
+          <a href="../../pages/Inicio/Inicio.js" className={styles.submitButtonLabel}>Entrar</a>
         </div>
       </button>
       <div className={styles.socialButtonGroups} />
