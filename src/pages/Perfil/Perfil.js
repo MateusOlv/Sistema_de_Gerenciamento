@@ -41,16 +41,18 @@ const Perfil = () => {
                   itemTypeColor="#5d6679"
                   itemTypeTextDecoration="unset"
                 />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/order1.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Requisição"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
+                <a href="../../pages/Requisicao/Requisicao.js">
+                  <ListMenu
+                    listMenuAlignSelf="stretch"
+                    listMenuWidth="unset"
+                    home="/order1.svg"
+                    homeIconOverflow="unset"
+                    homeIconMargin="unset"
+                    itemType="Requisição"
+                    itemTypeColor="#5d6679"
+                    itemTypeTextDecoration="unset"
+                  />
+                </a>
                 <ListMenu
                   listMenuAlignSelf="stretch"
                   listMenuWidth="unset"
