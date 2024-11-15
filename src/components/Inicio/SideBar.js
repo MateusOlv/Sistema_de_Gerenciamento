@@ -72,16 +72,18 @@ const SideBar = ({
         <div className={styles.listMenu} style={listMenu1Style}>
           <div className={styles.listMenu1}>
             <ListMenu home="/home1.svg" itemType="Início" />
-            <ListMenu
-              listMenuAlignSelf="stretch"
-              listMenuWidth="unset"
-              home="/report.svg"
-              homeIconOverflow="unset"
-              homeIconMargin="unset"
-              itemType="Painel De Controle"
-              itemTypeColor="#5d6679"
-              itemTypeTextDecoration="unset"
-            />
+            <a href="../../pages/PainelDeControle/PainelDeControle.js">
+              <ListMenu
+                listMenuAlignSelf="stretch"
+                listMenuWidth="unset"
+                home="/report.svg"
+                homeIconOverflow="unset"
+                homeIconMargin="unset"
+                itemType="Painel De Controle"
+                itemTypeColor="#5d6679"
+                itemTypeTextDecoration="unset"
+              />
+            </a>
             <ListMenu
               listMenuAlignSelf="stretch"
               listMenuWidth="unset"
