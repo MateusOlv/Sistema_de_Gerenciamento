@@ -5,12 +5,12 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-import Inicio from "./pages/Inicio";
-import Registrar from "./pages/Registrar";
-import PainelDeControle from "./pages/PainelDeControle";
-import Perfil from "./pages/Perfil";
-import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Inicio from "./pages/Inicio/Inicio";
+import Registrar from "./pages/Registrar/Registrar";
+import PainelDeControle from "./pages/PainelDeControle/PainelDeControle";
+import Perfil from "./pages/Perfil/Perfil";
+import Login from "./pages/Login/Login";
 
 function App() {
   const action = useNavigationType();

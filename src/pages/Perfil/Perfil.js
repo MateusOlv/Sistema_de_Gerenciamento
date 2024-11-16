@@ -1,5 +1,5 @@
-import ListMenu from "../components/ListMenu";
-import AdditionalInfoLabels from "../components/AdditionalInfoLabels";
+import ListMenu from "../../components/ListMenu";
+import AdditionalInfoLabels from "../../components/AdditionalInfoLabels";
 import styles from "./Perfil.module.css";
 
 const Perfil = () => {

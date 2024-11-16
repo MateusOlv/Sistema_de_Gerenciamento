@@ -1,6 +1,6 @@
-import FrameComponent from "../components/FrameComponent";
-import FrameComponent1 from "../components/FrameComponent1";
-import Content from "../components/Content";
+import FrameComponent from "../../components/FrameComponent";
+import FrameComponent1 from "../../components/FrameComponent1";
+import Content from "../../components/Content";
 import styles from "./Registrar.module.css";
 
 const Registrar = () => {
