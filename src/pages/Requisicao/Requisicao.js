@@ -50,16 +50,18 @@ const Requisicao = () => {
                   itemTypeColor="#009ed8"
                   itemTypeTextDecoration="unset"
                 />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/manage-store2.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Formulários"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
+                <a href="../../pages/Formularios/Formularios.js">
+                  <ListMenu
+                    listMenuAlignSelf="stretch"
+                    listMenuWidth="unset"
+                    home="/manage-store2.svg"
+                    homeIconOverflow="unset"
+                    homeIconMargin="unset"
+                    itemType="Formulários"
+                    itemTypeColor="#5d6679"
+                    itemTypeTextDecoration="unset"
+                  />
+                </a>
                 <ListMenu
                   listMenuAlignSelf="stretch"
                   listMenuWidth="unset"
@@ -313,9 +315,11 @@ const Requisicao = () => {
                     </div>
                   </div>
                   <div className={styles.buttons1}>
-                    <button className={styles.replaceButton}>
-                      <div className={styles.text2}>Próximo</div>
-                    </button>
+                     <a href="/"> {/*Rota requisicao 2} */}
+                      <button className={styles.replaceButton}>
+                        <div className={styles.text2}>Próximo</div>
+                      </button>
+                    </a>
                   </div>
                 </div>
               </div>

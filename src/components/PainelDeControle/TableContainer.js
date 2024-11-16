@@ -433,9 +433,11 @@ const TableContainer = ({ className = "" }) => {
                       <div className={styles.replaceButtonWrapper1}>
                         <div className={styles.div22}>123456</div>
                       </div>
-                      <button className={styles.replaceButton1}>
-                        <div className={styles.text2}>Próximo</div>
-                      </button>
+                      <a href="/"> {/*Rota Painel de Controle*/}
+                        <button className={styles.replaceButton1}>
+                          <div className={styles.text2}>Próximo</div>
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
