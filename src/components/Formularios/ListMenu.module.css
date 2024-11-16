@@ -1,0 +1,33 @@
+.homeIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.contentTypes {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.content,
+.listMenu {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  width: 186px;
+  height: 24px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.listMenu {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-base) 0;
+  text-align: left;
+  font-size: var(--body-1-medium-size);
+  color: var(--grey-grey-600);
+  font-family: var(--body-1-medium);
+}
