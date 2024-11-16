@@ -1,7 +1,7 @@
-import ListMenu from "../components/ListMenu";
-import MainContent from "../components/MainContent";
-import Dashboard1 from "../components/Dashboard1";
-import TableContainer from "../components/TableContainer";
+import ListMenu from "../../components/ListMenu/ListMenu";
+import MainContent from "../../components/MainContent/MainContent";
+import Dashboard1 from "../../components/Dashboard/Dashboard1";
+import TableContainer from "../../components/TableContainer/TableContainer";
 import styles from "./PainelDeControle.module.css";
 
 const PainelDeControle = () => {

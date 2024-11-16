@@ -5,12 +5,12 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Dashboard from "./pages/Dashboard";
-import Incio from "./pages/Incio";
-import Regristrar from "./pages/Regristrar";
-import PainelDeControle from "./pages/PainelDeControle";
-import Perfil from "./pages/Perfil";
-import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Inicio from "./pages/Inicio/Inicio";
+import Registrar from "./pages/Registrar/Registrar";
+import PainelDeControle from "./pages/PainelDeControle/PainelDeControle";
+import Perfil from "./pages/Perfil/Perfil";
+import Login from "./pages/Login/Login";
 
 function App() {
   const action = useNavigationType();
@@ -32,11 +32,11 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/incio":
+      case "/inicio":
         title = "";
         metaDescription = "";
         break;
-      case "/regristrar":
+      case "/registrar":
         title = "";
         metaDescription = "";
         break;
@@ -71,8 +71,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Dashboard />} />
-      <Route path="/incio" element={<Incio />} />
-      <Route path="/regristrar" element={<Regristrar />} />
+      <Route path="/inicio" element={<Inicio />} />
+      <Route path="/registrar" element={<Registrar />} />
       <Route path="/painel-de-controle" element={<PainelDeControle />} />
       <Route path="/perfil" element={<Perfil />} />
       <Route path="/login" element={<Login />} />

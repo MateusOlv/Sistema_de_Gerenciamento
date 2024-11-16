@@ -6,7 +6,7 @@
   max-width: 100%;
 }
 .contentWrapper,
-.incio,
+.inicio,
 .searchBarContainerParent {
   display: flex;
   align-items: flex-start;
@@ -18,7 +18,7 @@
   gap: 574px;
   max-width: calc(100% - 280px);
 }
-.incio {
+.inicio {
   width: 100%;
   position: relative;
   background-color: var(--grey-grey-50);
@@ -38,7 +38,7 @@
   .searchBarContainerParent {
     max-width: 100%;
   }
-  .incio {
+  .inicio {
     padding-left: var(--padding-xl);
     padding-right: var(--padding-xl);
     box-sizing: border-box;
