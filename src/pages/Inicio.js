@@ -1,11 +1,11 @@
 import SideBar from "../components/SideBar";
 import SearchBarContainer from "../components/SearchBarContainer";
 import Content2 from "../components/Content2";
-import styles from "./Incio.module.css";
+import styles from "./Inicio.module.css";
 
-const Incio = () => {
+const Inicio = () => {
   return (
-    <div className={styles.incio}>
+    <div className={styles.inicio}>
       <SideBar />
       <main className={styles.searchBarContainerParent}>
         <SearchBarContainer />
@@ -17,4 +17,4 @@ const Incio = () => {
   );
 };
 
-export default Incio;
+export default Inicio;
