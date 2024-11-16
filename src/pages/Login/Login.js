@@ -1,6 +1,6 @@
-import FrameComponent from "../../components/FrameComponent";
-import FrameComponent1 from "../../components/FrameComponent1";
-import Content1 from "../../components/Content1";
+import FrameComponent from "../../components/FrameComponent/FrameComponent";
+import FrameComponent1 from "../../components/FrameComponent1/FrameComponent1";
+import Content1 from "../../components/Content1/Content1";
 import styles from "./Login.module.css";
 
 const Login = () => {

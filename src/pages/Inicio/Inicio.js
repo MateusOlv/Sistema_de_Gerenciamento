@@ -1,6 +1,6 @@
-import SideBar from "../../components/SideBar";
-import SearchBarContainer from "../../components/SearchBarContainer";
-import Content2 from "../../components/Content2";
+import SideBar from "../../components/SideBar/SideBar";
+import SearchBarContainer from "../../components/SearchBarContainer/SearchBarContainer";
+import Content2 from "../../components/Content2/Content2";
 import styles from "./Inicio.module.css";
 
 const Inicio = () => {

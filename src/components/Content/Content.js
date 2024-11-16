@@ -1,4 +1,4 @@
-import InputField from "./InputField";
+import InputField from "../InputField/InputField";
 import PropTypes from "prop-types";
 import styles from "./Content.module.css";
 

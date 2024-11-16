@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import ListMenu from "./ListMenu";
+import ListMenu from "../ListMenu/ListMenu";
 import PropTypes from "prop-types";
 import styles from "./SideBar.module.css";
 
