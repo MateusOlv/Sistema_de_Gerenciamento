@@ -1,11 +1,11 @@
 import FrameComponent from "../components/FrameComponent";
 import FrameComponent1 from "../components/FrameComponent1";
 import Content from "../components/Content";
-import styles from "./Regristrar.module.css";
+import styles from "./Registrar.module.css";
 
-const Regristrar = () => {
+const Registrar = () => {
   return (
-    <div className={styles.regristrar}>
+    <div className={styles.registrar}>
       <FrameComponent prop="/531.svg" />
       <div className={styles.frameParent}>
         <FrameComponent1
@@ -19,4 +19,4 @@ const Regristrar = () => {
   );
 };
 
-export default Regristrar;
+export default Registrar;

@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Incio from "./pages/Incio";
-import Regristrar from "./pages/Regristrar";
+import Registrar from "./pages/Registrar";
 import PainelDeControle from "./pages/PainelDeControle";
 import Perfil from "./pages/Perfil";
 import Login from "./pages/Login";
@@ -36,7 +36,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/regristrar":
+      case "/registrar":
         title = "";
         metaDescription = "";
         break;
@@ -72,7 +72,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Dashboard />} />
       <Route path="/incio" element={<Incio />} />
-      <Route path="/regristrar" element={<Regristrar />} />
+      <Route path="/registrar" element={<Registrar />} />
       <Route path="/painel-de-controle" element={<PainelDeControle />} />
       <Route path="/perfil" element={<Perfil />} />
       <Route path="/login" element={<Login />} />
