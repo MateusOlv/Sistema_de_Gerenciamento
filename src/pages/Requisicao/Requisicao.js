@@ -1,4 +1,4 @@
-import ListMenu from "../../components/Requisicao/ListMenu";
+import ListMenu from "../../components/ListMenu/ListMenu";
 import styles from "./Requisicao.module.css";
 
 const Requisicao = () => {
