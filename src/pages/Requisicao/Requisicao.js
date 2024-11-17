@@ -43,29 +43,27 @@ const Requisicao = () => {
                 <ListMenu
                   listMenuAlignSelf="stretch"
                   listMenuWidth="unset"
-                  home="/order2.svg"
+                  home="/order1.svg"
                   homeIconOverflow="unset"
                   homeIconMargin="unset"
                   itemType="Requisição"
                   itemTypeColor="#009ed8"
                   itemTypeTextDecoration="unset"
                 />
-                <a href="../../pages/Formularios/Formularios.js">
-                  <ListMenu
-                    listMenuAlignSelf="stretch"
-                    listMenuWidth="unset"
-                    home="/manage-store2.svg"
-                    homeIconOverflow="unset"
-                    homeIconMargin="unset"
-                    itemType="Formulários"
-                    itemTypeColor="#5d6679"
-                    itemTypeTextDecoration="unset"
-                  />
-                </a>
                 <ListMenu
                   listMenuAlignSelf="stretch"
                   listMenuWidth="unset"
-                  home="/suppliers1.svg"
+                  home="/manage-store2.svg"
+                  homeIconOverflow="unset"
+                  homeIconMargin="unset"
+                  itemType="Formulários"
+                  itemTypeColor="#5d6679"
+                  itemTypeTextDecoration="unset"
+                />
+                <ListMenu
+                  listMenuAlignSelf="stretch"
+                  listMenuWidth="unset"
+                  home="/suppliers.svg"
                   homeIconOverflow="unset"
                   homeIconMargin="unset"
                   itemType="Perfil"
@@ -77,7 +75,7 @@ const Requisicao = () => {
           </div>
         </div>
         <div className={styles.settingsMenu}>
-          <ListMenu
+        <ListMenu
             listMenuAlignSelf="unset"
             listMenuWidth="232px"
             home="/settings1.svg"
@@ -90,7 +88,7 @@ const Requisicao = () => {
           <ListMenu
             listMenuAlignSelf="unset"
             listMenuWidth="232px"
-            home="/log-out4.svg"
+            home="/log-out3.svg"
             homeIconOverflow="hidden"
             homeIconMargin="unset"
             itemType="Sair"
@@ -117,7 +115,7 @@ const Requisicao = () => {
                   className={styles.notificationIcon}
                   loading="lazy"
                   alt=""
-                  src="/notification3.svg"
+                  src="/notification2.svg"
                 />
               </div>
             </div>
