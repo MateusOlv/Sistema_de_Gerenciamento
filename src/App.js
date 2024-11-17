@@ -11,6 +11,7 @@ import Registrar from "./pages/Registrar/Registrar";
 import PainelDeControle from "./pages/PainelDeControle/PainelDeControle";
 import Perfil from "./pages/Perfil/Perfil";
 import Login from "./pages/Login/Login";
+import Requisicao from "./pages/Requisicao/Requisicao";
 
 function App() {
   const action = useNavigationType();
@@ -52,6 +53,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/requisicao":
+        title = "";
+        metaDescription = "";
+        break;
     }
 
     if (title) {
@@ -76,6 +81,7 @@ function App() {
       <Route path="/painel-de-controle" element={<PainelDeControle />} />
       <Route path="/perfil" element={<Perfil />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/requisicao" element={<Requisicao />} />
     </Routes>
   );
 }
