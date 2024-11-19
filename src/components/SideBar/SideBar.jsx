@@ -16,6 +16,7 @@ const SideBar = ({
   logiManageFlex,
   listMenuWidth,
   listMenuAlignSelf,
+  Image = []
 }) => {
   const sideBarStyle = useMemo(() => {
     return {
@@ -72,13 +73,13 @@ const SideBar = ({
         <div className={styles.listMenu} style={listMenu1Style}>
           <div className={styles.listMenu1}>
             <a href="/">
-              <ListMenu home="/home1.svg" itemType="Início" />
+              <ListMenu home={`${Image[0]}`} itemType="Início" />
             </a>
             <a href="/painel-de-controle">
               <ListMenu
                 listMenuAlignSelf="stretch"
                 listMenuWidth="unset"
-                home="/report.svg"
+                home={`${Image[1]}`}
                 homeIconOverflow="unset"
                 homeIconMargin="unset"
                 itemType="Painel De Controle"
@@ -90,7 +91,7 @@ const SideBar = ({
               <ListMenu
                 listMenuAlignSelf="stretch"
                 listMenuWidth="unset"
-                home="/order.svg"
+                home={`${Image[2]}`}
                 homeIconOverflow="unset"
                 homeIconMargin="unset"
                 itemType="Requisição"
@@ -102,7 +103,7 @@ const SideBar = ({
               <ListMenu
                 listMenuAlignSelf="stretch"
                 listMenuWidth="unset"
-                home="/manage-store.svg"
+                home={`${Image[3]}`}
                 homeIconOverflow="unset"
                 homeIconMargin="unset"
                 itemType="Formulários"
@@ -114,7 +115,7 @@ const SideBar = ({
               <ListMenu
                 listMenuAlignSelf="stretch"
                 listMenuWidth="unset"
-                home="/suppliers.svg"
+                home={`${Image[4]}`}
                 homeIconOverflow="unset"
                 homeIconMargin="unset"
                 itemType="Perfil"
