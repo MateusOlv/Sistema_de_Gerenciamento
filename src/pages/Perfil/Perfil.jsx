@@ -1,103 +1,14 @@
 import ListMenu from "../../components/ListMenu/ListMenu";
 import AdditionalInfoLabels from "../../components/AdditionalInfoLabels/AdditionalInfoLabels";
 import styles from "./Perfil.module.css";
+import SideBar from "../../components/SideBar/SideBar";
+
+const images = ["/home2.svg", "/report.svg", "/order.svg", "/manage-store.svg","/suppliers2.svg"]
 
 const Perfil = () => {
   return (
     <div className={styles.perfil}>
-      <div className={styles.sideBar}>
-        <div className={styles.sidebarContent}>
-          <div className={styles.sidebarMenu}>
-            <div className={styles.top}>
-              <div className={styles.logo}>
-                <img
-                  className={styles.logoPlaceholderIcon}
-                  loading="lazy"
-                  alt=""
-                  src="/533.svg"
-                />
-                <a className={styles.logimanage}>LogiManage</a>
-              </div>
-            </div>
-            <div className={styles.listMenu}>
-              <div className={styles.listMenu1}>
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/home2.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Início"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="none"
-                />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/report.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Painel De Controle"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/order1.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Requisição"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/manage-store2.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Formulários"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/suppliers2.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Perfil"
-                  itemTypeColor="#009ed8"
-                  itemTypeTextDecoration="unset"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.logoutMenu}>
-          <ListMenu
-            listMenuAlignSelf="unset"
-            listMenuWidth="232px"
-            home="/settings1.svg"
-            homeIconOverflow="hidden"
-            homeIconMargin="unset"
-            itemType="Configurações"
-            itemTypeColor="#5d6679"
-            itemTypeTextDecoration="unset"
-          />
-          <ListMenu
-            listMenuAlignSelf="unset"
-            listMenuWidth="232px"
-            home="/log-out3.svg"
-            homeIconOverflow="hidden"
-            homeIconMargin="unset"
-            itemType="Sair"
-            itemTypeColor="#5d6679"
-            itemTypeTextDecoration="unset"
-          />
-        </div>
-      </div>
+      <SideBar Image={images}/>
       <main className={styles.searchBarContainerWrapper}>
         <section className={styles.searchBarContainer}>
           <header className={styles.headerContent}>
@@ -122,10 +33,6 @@ const Perfil = () => {
           </header>
           <div className={styles.profileSetting}>
             <div className={styles.div}>这里可以是一句话的注释内容</div>
-            <div className={styles.welcome}>
-              <div className={styles.bemVindoLeandro}>Bem-vindo, Leandro</div>
-              <div className={styles.tera12De}>Terça, 12 de Novembro 2024</div>
-            </div>
             <div className={styles.profilePicture}>
               <div className={styles.userName}>
                 <div className={styles.personalInfoContainer}>
