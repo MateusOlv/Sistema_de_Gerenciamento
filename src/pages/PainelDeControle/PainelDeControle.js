@@ -36,6 +36,7 @@ const PainelDeControle = () => {
                 <ListMenu
                   listMenuAlignSelf="stretch"
                   listMenuWidth="unset"
+                  home="/report.svg"
                   homeIconOverflow="unset"
                   homeIconMargin="0"
                   itemType="Painel De Controle"

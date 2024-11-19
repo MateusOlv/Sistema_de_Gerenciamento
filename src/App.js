@@ -12,6 +12,7 @@ import PainelDeControle from "./pages/PainelDeControle/PainelDeControle";
 import Perfil from "./pages/Perfil/Perfil";
 import Login from "./pages/Login/Login";
 import Requisicao from "./pages/Requisicao/Requisicao";
+import Formularios from "./pages/Formularios/Formularios"
 
 function App() {
   const action = useNavigationType();
@@ -75,13 +76,14 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Dashboard />} />
-      <Route path="/inicio" element={<Inicio />} />
+      <Route path="/" element={<Inicio />} />
       <Route path="/registrar" element={<Registrar />} />
       <Route path="/painel-de-controle" element={<PainelDeControle />} />
       <Route path="/perfil" element={<Perfil />} />
       <Route path="/login" element={<Login />} />
       <Route path="/requisicao" element={<Requisicao />} />
+      <Route path="/formularios" element={<Formularios />} />
+      <Route path="/dashboard" element={<Dashboard />} />
     </Routes>
   );
 }
