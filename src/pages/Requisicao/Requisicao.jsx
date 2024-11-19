@@ -1,102 +1,13 @@
 import ListMenu from "../../components/ListMenu/ListMenu";
+import SideBar from "../../components/SideBar/SideBar";
 import styles from "./Requisicao.module.css";
+
+const images = ["/home2.svg", "/report.svg", "/order1.svg", "/manage-store.svg","/suppliers.svg"]
 
 const Requisicao = () => {
   return (
     <div className={styles.requisicao}>
-      <div className={styles.sideBar}>
-        <div className={styles.sidebarTop}>
-          <div className={styles.sidebarTopContainer}>
-            <div className={styles.top}>
-              <div className={styles.logo}>
-                <img
-                  className={styles.logoPlaceholderIcon}
-                  loading="lazy"
-                  alt=""
-                  src="/53.svg"
-                />
-                <a className={styles.logimanage}>LogiManage</a>
-              </div>
-            </div>
-            <div className={styles.listMenu}>
-              <div className={styles.listMenu1}>
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/home2.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Início"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="none"
-                />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/report.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Painel De Controle"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/order1.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Requisição"
-                  itemTypeColor="#009ed8"
-                  itemTypeTextDecoration="unset"
-                />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/manage-store2.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Formulários"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
-                <ListMenu
-                  listMenuAlignSelf="stretch"
-                  listMenuWidth="unset"
-                  home="/suppliers.svg"
-                  homeIconOverflow="unset"
-                  homeIconMargin="unset"
-                  itemType="Perfil"
-                  itemTypeColor="#5d6679"
-                  itemTypeTextDecoration="unset"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className={styles.settingsMenu}>
-        <ListMenu
-            listMenuAlignSelf="unset"
-            listMenuWidth="232px"
-            home="/settings1.svg"
-            homeIconOverflow="hidden"
-            homeIconMargin="unset"
-            itemType="Configurações"
-            itemTypeColor="#5d6679"
-            itemTypeTextDecoration="unset"
-          />
-          <ListMenu
-            listMenuAlignSelf="unset"
-            listMenuWidth="232px"
-            home="/log-out3.svg"
-            homeIconOverflow="hidden"
-            homeIconMargin="unset"
-            itemType="Sair"
-            itemTypeColor="#5d6679"
-            itemTypeTextDecoration="unset"
-          />
-        </div>
-      </div>
+      <SideBar Image={images}/>
       <main className={styles.content}>
         <section className={styles.searchBarContainer}>
           <div className={styles.topBar} />
