@@ -73,83 +73,29 @@ const SideBar = ({
         <div className={styles.listMenu} style={listMenu1Style}>
           <div className={styles.listMenu1}>
             <a href="/">
-              <ListMenu home={`${Image[0]}`} itemType="Início" />
+              <ListMenu home={`${Image[0]}`} itemType="Início" itemTypeColor="#5d6679"/>
             </a>
             <a href="/painel-de-controle">
-              <ListMenu
-                listMenuAlignSelf="stretch"
-                listMenuWidth="unset"
-                home={`${Image[1]}`}
-                homeIconOverflow="unset"
-                homeIconMargin="unset"
-                itemType="Painel De Controle"
-                itemTypeColor="#5d6679"
-                itemTypeTextDecoration="unset"
-              />
+              <ListMenu home={`${Image[1]}`} itemType="Painel De Controle" itemTypeColor="#5d6679"/>
             </a>
             <a href="/requisicao">
-              <ListMenu
-                listMenuAlignSelf="stretch"
-                listMenuWidth="unset"
-                home={`${Image[2]}`}
-                homeIconOverflow="unset"
-                homeIconMargin="unset"
-                itemType="Requisição"
-                itemTypeColor="#5d6679"
-                itemTypeTextDecoration="unset"
-              />
+              <ListMenu home={`${Image[2]}`} itemType="Requisição" itemTypeColor="#5d6679"/>
             </a>
             <a href="/formularios">
-              <ListMenu
-                listMenuAlignSelf="stretch"
-                listMenuWidth="unset"
-                home={`${Image[3]}`}
-                homeIconOverflow="unset"
-                homeIconMargin="unset"
-                itemType="Formulários"
-                itemTypeColor="#5d6679"
-                itemTypeTextDecoration="unset"
-              />
+              <ListMenu home={`${Image[3]}`} itemType="Formulários" itemTypeColor="#5d6679"/>
             </a>
             <a href="/perfil">
-              <ListMenu
-                listMenuAlignSelf="stretch"
-                listMenuWidth="unset"
-                home={`${Image[4]}`}
-                homeIconOverflow="unset"
-                homeIconMargin="unset"
-                itemType="Perfil"
-                itemTypeColor="#5d6679"
-                itemTypeTextDecoration="unset"
-              />
+              <ListMenu home={`${Image[4]}`} itemType="Perfil" itemTypeColor="#5d6679"/>
             </a>
           </div>
         </div>
       </div>
       <div className={styles.settingsMenu}>
         <a href="">
-          <ListMenu
-            listMenuAlignSelf="unset"
-            listMenuWidth="232px"
-            home="/settings.svg"
-            homeIconOverflow="hidden"
-            homeIconMargin="unset"
-            itemType="Configurações"
-            itemTypeColor="#5d6679"
-            itemTypeTextDecoration="unset"
-          />
+          <ListMenu home="/settings.svg" itemType="Configurações" itemTypeColor="#5d6679"/>
         </a>
         <a href="/login">
-          <ListMenu
-            listMenuAlignSelf="unset"
-            listMenuWidth="232px"
-            home="/log-out1.svg"
-            homeIconOverflow="hidden"
-            homeIconMargin="unset"
-            itemType="Sair"
-            itemTypeColor="#5d6679"
-            itemTypeTextDecoration="unset"
-          />
+          <ListMenu home="/log-out1.svg" itemType="Sair" itemTypeColor="#5d6679"/>
         </a>
       </div>
     </div>
