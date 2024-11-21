@@ -47,14 +47,14 @@ const Content = ({ className = "" }) => {
       </div>
       <button className={styles.button}>
         <div className={styles.buttonBase}>
-          <div className={styles.text}>Registrar</div>
+          <a href="/" className={styles.text}>Registrar</a>
         </div>
       </button>
       <div className={styles.row}>
         <div className={styles.text1}>Já tem uma conta?</div>
         <div className={styles.button1}>
           <div className={styles.buttonBase1}>
-            <div className={styles.text2}>Login</div>
+            <a href="/login" className={styles.text2}>Login</a>
           </div>
         </div>
       </div>
