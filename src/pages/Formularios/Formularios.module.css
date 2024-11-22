@@ -10,6 +10,14 @@
   line-height: normal;
   letter-spacing: normal;
 }
+.contentWrapper {
+  width: 1138px;
+  flex-direction: row;
+  padding: 0 var(--padding-smi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
 @media screen and (max-width: 925px) {
   .formularios {
     padding-left: var(--padding-xl);
