@@ -9,9 +9,7 @@ import Dashboard from "./pages/Dashboard/Dashboard";
 import Inicio from "./pages/Inicio/Inicio";
 import Registrar from "./pages/Registrar/Registrar";
 import PainelDeControle from "./pages/PainelDeControle/PainelDeControle";
-import Perfil from "./pages/Perfil/Perfil";
 import Login from "./pages/Login/Login";
-import Requisicao from "./pages/Requisicao/Requisicao";
 import Formularios from "./pages/Formularios/Formularios"
 
 function App() {
@@ -46,15 +44,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/perfil":
-        title = "";
-        metaDescription = "";
-        break;
       case "/login":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/requisicao":
         title = "";
         metaDescription = "";
         break;
@@ -79,9 +69,7 @@ function App() {
       <Route path="/" element={<Inicio />} />
       <Route path="/registrar" element={<Registrar />} />
       <Route path="/painel-de-controle" element={<PainelDeControle />} />
-      <Route path="/perfil" element={<Perfil />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/requisicao" element={<Requisicao />} />
       <Route path="/formularios" element={<Formularios />} />
       <Route path="/dashboard" element={<Dashboard />} />
     </Routes>

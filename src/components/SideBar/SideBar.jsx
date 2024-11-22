@@ -78,22 +78,13 @@ const SideBar = ({
             <a href="/painel-de-controle">
               <ListMenu home={`${Image[1]}`} itemType="Painel De Controle" itemTypeColor="#5d6679"/>
             </a>
-            <a href="/requisicao">
-              <ListMenu home={`${Image[2]}`} itemType="Requisição" itemTypeColor="#5d6679"/>
-            </a>
             <a href="/formularios">
               <ListMenu home={`${Image[3]}`} itemType="Formulários" itemTypeColor="#5d6679"/>
-            </a>
-            <a href="/perfil">
-              <ListMenu home={`${Image[4]}`} itemType="Perfil" itemTypeColor="#5d6679"/>
             </a>
           </div>
         </div>
       </div>
       <div className={styles.settingsMenu}>
-        <a href="">
-          <ListMenu home="/settings.svg" itemType="Configurações" itemTypeColor="#5d6679"/>
-        </a>
         <a href="/login">
           <ListMenu home="/log-out1.svg" itemType="Sair" itemTypeColor="#5d6679"/>
         </a>
