@@ -7,45 +7,35 @@ const Content1 = ({ className = "" }) => {
     <form className={[styles.content, className].join(" ")}>
       <div className={styles.form}>
         <InputField
-          inputFieldHeight="unset"
           inputFieldFlex="1"
           label="Email"
-          labelDisplay="unset"
-          labelMinWidth="unset"
           placeholder="Insira seu e-mail"
         />
         <InputField
-          inputFieldHeight="unset"
           inputFieldFlex="1"
           label="Senha"
-          labelDisplay="unset"
-          labelMinWidth="unset"
           placeholder="••••••••"
         />
       </div>
       <div className={styles.row}>
         <div className={styles.checkbox}>
           <input className={styles.checkbox1} type="checkbox" />
-          <div className={styles.checkboxLabel}>Lembre-se por 30 dias</div>
+          <label className={styles.checkboxLabel}>Lembre-se por 30 dias</label>
         </div>
-        <div className={styles.button}>
-          <div className={styles.buttonBase}>
-            <div className={styles.buttonLabel}>Esqueci a senha</div>
-          </div>
+        <div className={styles.button}>          
+          <a href="#" className={styles.buttonLabel}>Esqueci a senha</a>
         </div>
       </div>
       <button className={styles.button1}>
         <div className={styles.buttonBase1}>
-          <div className={styles.submitButtonLabel}>Entrar</div>
+          <a href="/" className={styles.submitButtonLabel}>Entrar</a>
         </div>
       </button>
-      <div className={styles.socialButtonGroups} />
+      
       <div className={styles.row1}>
         <div className={styles.text}>Não tem uma conta?</div>
         <div className={styles.button}>
-          <div className={styles.buttonBase}>
-            <div className={styles.text1}>Registrar-se</div>
-          </div>
+          <a href="/registrar" className={styles.text1}>Registrar-se</a>
         </div>
       </div>
     </form>

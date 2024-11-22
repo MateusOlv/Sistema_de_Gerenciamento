@@ -21,7 +21,7 @@
   font-family: inherit;
 }
 .frameParent,
-.regristrarInner {
+.registrarInner {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -30,7 +30,7 @@
 .frameParent {
   gap: var(--gap-13xl);
 }
-.regristrarInner {
+.registrarInner {
   padding: var(--padding-115xl) 0 0;
   text-align: left;
   font-size: var(--font-size-28xl);
@@ -49,7 +49,7 @@
   .frameParent {
     gap: var(--gap-base);
   }
-  .regristrarInner {
+  .registrarInner {
     padding-top: var(--padding-68xl);
     box-sizing: border-box;
   }

@@ -16,7 +16,7 @@
   overflow: hidden;
   flex-direction: row;
   justify-content: space-between;
-  padding: 199px var(--padding-219xl) var(--padding-232xl) 224px;
+  padding: 50px var(--padding-219xl) 0 224px;
   box-sizing: border-box;
   line-height: normal;
   letter-spacing: normal;

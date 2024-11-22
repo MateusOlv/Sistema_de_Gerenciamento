@@ -11,7 +11,7 @@ const FrameComponent = ({ className = "", frameDivPadding, prop }) => {
 
   return (
     <div
-      className={[styles.regristrarInner, className].join(" ")}
+      className={[styles.registrarInner, className].join(" ")}
       style={frameDivStyle}
     >
       <div className={styles.frameParent}>
