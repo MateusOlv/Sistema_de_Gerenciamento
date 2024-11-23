@@ -15,8 +15,7 @@
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
-  line-height: 20.731px;
-  /* 112.5% */
+  margin-bottom: 5px;
 }
 
 .h2 {
@@ -26,15 +25,15 @@
   font-style: normal;
   font-weight: 500;
   line-height: 25.769px;
-  /* 150% */
+  margin-bottom: 5px;
 }
 
 .p {
   color: var(--Grey-grey-500, #667085);
   font-family: Inter;
-  font-size: 11.474px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 500;
   line-height: 16.392px;
-  /* 142.857% */
+  margin-top: 0;
 }
