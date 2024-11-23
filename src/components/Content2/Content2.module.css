@@ -68,7 +68,7 @@
   z-index: 1;
 }
 .acompanheEGerencie1,
-.formulriosChild {
+.formulariosChild {
   box-shadow: 0 5px 10.1px -3px rgba(0, 0, 0, 0.25);
   background-color: var(--white);
 }
@@ -86,7 +86,7 @@
   max-width: 100%;
   z-index: 4;
 }
-.formulriosChild {
+.formulariosChild {
   align-self: stretch;
   height: 249px;
   position: relative;
@@ -113,7 +113,7 @@
   z-index: 1;
 }
 .content,
-.formulrios,
+.formularios,
 .h3FeatureTitle3Wrapper {
   display: flex;
   align-items: flex-start;
@@ -125,11 +125,11 @@
   padding: 0 var(--padding-8xl) 0 var(--padding-16xl);
 }
 .content,
-.formulrios {
+.formularios {
   flex: 1;
   max-width: 100%;
 }
-.formulrios {
+.formularios {
   box-shadow: 0 5px 10.1px -3px rgba(0, 0, 0, 0.25);
   background-color: var(--white);
   flex-direction: column;

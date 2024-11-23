@@ -30,8 +30,8 @@ const Content2 = ({ className = "" }) => {
           Acompanhe e gerencie todos os transportes em andamento.
         </h3>
       </div>
-      <div className={styles.formulrios}>
-        <div className={styles.formulriosChild} />
+      <div className={styles.formularios}>
+        <div className={styles.formulariosChild} />
         <img
           className={styles.figuras2}
           loading="lazy"
