@@ -9,11 +9,13 @@
   max-width: 100%;
   z-index: 0;
 }
+
 .searchIcon {
   height: 24px;
   width: 24px;
   position: relative;
 }
+
 .pesquisar {
   flex: 1;
   position: relative;
@@ -21,6 +23,7 @@
   display: inline-block;
   max-width: 100%;
 }
+
 .searchBar1 {
   width: 400px;
   border-radius: var(--br-9xs);
@@ -30,17 +33,18 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: var(--padding-5xs) var(--padding-smi) var(--padding-5xs)
-    var(--padding-base);
+  padding: var(--padding-5xs) var(--padding-smi) var(--padding-5xs) var(--padding-base);
   gap: var(--gap-5xs);
   min-height: 44px;
   max-width: 100%;
 }
+
 .notification {
   height: 40px;
   width: 40px;
   display: none;
 }
+
 .avatarIcon {
   position: absolute;
   top: 0;
@@ -49,6 +53,7 @@
   height: 100%;
   object-fit: cover;
 }
+
 .notificationIcon {
   position: absolute;
   top: 8px;
@@ -58,11 +63,13 @@
   overflow: hidden;
   z-index: 2;
 }
+
 .userIcons {
   width: 40px;
   height: 40px;
   position: relative;
 }
+
 .searchBar,
 .userIconsWrapper {
   display: flex;
@@ -71,6 +78,7 @@
   justify-content: flex-start;
   padding: var(--padding-11xs) 0 0;
 }
+
 .searchBar {
   flex: 1;
   flex-direction: row;
@@ -81,26 +89,62 @@
   gap: var(--gap-xl);
   z-index: 1;
 }
+
 .frameChild {
-  position: absolute;
-  top: 79px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vh;
   left: 0;
   border-radius: var(--br-8xs);
   background-color: var(--white);
-  width: 1120px;
+  width: 1055px;
   height: 483px;
 }
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  text-wrap: wrap;
+  width: 500px;
+  margin-left: 15px;
+  margin-top: 15vh;
+}
+
+.texto p {
+  color: #555;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30.72px;
+  /* 180% */
+}
+
+.h1 {
+  top: 100px;
+  text-align: center;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 47px;
+  background: linear-gradient(91deg, #009ED8 3.42%, #0ACF83 82.66%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .figuras1 {
-  position: absolute;
   height: 100%;
   top: 0;
   bottom: 0;
   left: 496px;
   max-height: 100%;
-  width: 644px;
+  width: 500px;
   object-fit: cover;
   z-index: 3;
 }
+
 .rectangleParent {
   height: 644px;
   width: calc(100% - 20px);
@@ -110,6 +154,7 @@
   bottom: -594px;
   left: 12px;
 }
+
 .searchBarContainer {
   align-self: stretch;
   background-color: var(--white);
