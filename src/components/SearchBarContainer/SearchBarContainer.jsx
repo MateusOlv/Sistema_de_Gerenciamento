@@ -24,8 +24,13 @@ const SearchBarContainer = ({ className = "" }) => {
         </div>
       </div>
       <div className={styles.rectangleParent}>
-        <div className={styles.frameChild} />
-        <img className={styles.figuras1} alt="" src="/figuras--1@2x.png" />
+        <div className={styles.frameChild}>
+          <div className={styles.texto}>
+            <h1 className={styles.h1}>LogiManage: Gestão Eficiente de Transportes</h1>
+            <p>Bem-vindo ao LogiManage - O sistema completo para gerenciar com eficiência seus transportes e equipamentos, trazendo mais organização e controle para sua logística.</p>
+          </div>
+          <img className={styles.figuras1} alt="" src="/figuras--1@2x.png" />
+        </div>
       </div>
     </header>
   );

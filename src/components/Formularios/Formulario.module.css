@@ -1,0 +1,94 @@
+p {
+    color: var(--Grey-grey-700, #48505E);
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16.682px;
+}
+
+label {
+    color: var(--Grey-grey-700, #48505E);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17.458px;
+    padding: 5px;
+}
+
+input {
+    border-radius: 3.31px;
+    border: 0.414px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 0.414px 0.827px 0px rgba(16, 24, 40, 0.05);
+}
+
+input[type="text"] {
+    height: 15px;
+}
+
+div {
+    margin-top: 10px;
+}
+
+h2 {
+    color: var(--Grey-grey-800, #383E49);
+    font-family: Inter;
+    font-size: 17.179px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.769px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"] {
+    background-color:#009ED8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color:  #0ACF83;
+}
+
+.peculiaridade {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.tipoEmbalagem {
+    margin-top: 10px;
+}
+
+.LocalEData {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+.data {
+    margin-left: 50px;
+}
+
+.endereco input {
+    width: 500px;
+}
+
+.ptDeReferencia input {
+    width: 500px;
+}
+
+.responsavel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
