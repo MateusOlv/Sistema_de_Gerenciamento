@@ -18,7 +18,7 @@ function Form(){
                     <input type="checkbox" name="peculiaridade" id="toxico" />
                     <label htmlFor="">Tóxico</label>
             
-                    <label htmlFor="">Outro:</label>
+                    <label htmlFor="">Outro: </label>
                     <input type="text" name="peculiaridade" id="outro" />
                 </section>
 
@@ -40,7 +40,7 @@ function Form(){
                     <label htmlFor="">Não</label>
                     
                     <div>
-                        <label htmlFor="">Tipo de Embalagem:</label>
+                        <label htmlFor="">Tipo de Embalagem: </label>
                         <input type="text" name="embalagem" id="tipo"/>
                     </div>
                 </section>
@@ -60,7 +60,70 @@ function Form(){
                 </div>
 
                 <h2>Dados de Origem - Ponto de Coleta da Carga</h2>
+                <section className={styles.LocalEData}>
+                    <label htmlFor="">Local: </label>
+                    <input type="text" />
+
+                    <label className={styles.data} htmlFor="">Data e Hora: </label>
+                    <input type="text" />
+                </section>
+
+                <div className={styles.endereco}>
+                    <label htmlFor="">Endereço: </label>
+                    <input type="text" />
+                </div>
+
+                <div className={styles.ptDeReferencia}>
+                    <label htmlFor="">Ponto de Referência: </label>
+                    <input type="text" />
+                </div>
                 
+                <div className={styles.obs}>
+                    <label htmlFor="">Obs: </label>
+                    <input type="text" />
+                </div>
+
+                <section className={styles.responsavel}>
+                    <label htmlFor="">Responsável: </label>
+                    <input type="text" />
+
+                    <label htmlFor="">Telefone: </label>
+                    <input type="text" />
+                </section>
+                
+                <h2>Dados de Destino - Ponto de Entrega da Carga</h2>
+                <section className={styles.LocalEData}>
+                    <label htmlFor="">Local: </label>
+                    <input type="text" />
+
+                    <label className={styles.data} htmlFor="">Data e Hora: </label>
+                    <input type="text" />
+                </section>
+
+                <div className={styles.endereco}>
+                    <label htmlFor="">Endereço: </label>
+                    <input type="text" />
+                </div>
+
+                <div className={styles.ptDeReferencia}>
+                    <label htmlFor="">Ponto de Referência: </label>
+                    <input type="text" />
+                </div>
+                
+                <div className={styles.obs}>
+                    <label htmlFor="">Obs: </label>
+                    <input type="text" />
+                </div>
+
+                <section className={styles.responsavel}>
+                    <label htmlFor="">Responsável: </label>
+                    <input type="text" />
+
+                    <label htmlFor="">Telefone: </label>
+                    <input type="text" />
+                </section>
+
+                <input type="submit" value="Enviar"/>
                 
             </form>
         </main>
