@@ -1,0 +1,90 @@
+.topBar {
+  height: 100px;
+  width: 1160px;
+  position: relative;
+  background-color: var(--white);
+  border: 1px solid var(--color-whitesmoke-300);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.searchIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.pesquisar {
+  width: calc(100% - 52px);
+  border: 0;
+  outline: 0;
+  font-family: var(--body-1-regular);
+  font-size: var(--body-1-regular-size);
+  background-color: transparent;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  color: var(--grey-grey-400);
+  text-align: left;
+  display: inline-block;
+  min-width: 154px;
+  padding: 0;
+}
+.searchBar {
+  height: 44px;
+  width: 320px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--grey-grey-50);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-sm);
+  gap: var(--gap-5xs);
+}
+.notificationIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.notification {
+  padding: var(--padding-5xs);
+}
+.notification,
+.notificationAvatar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mainContent,
+.searchBarParent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.searchBarParent {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-13xl);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.mainContent {
+  align-self: stretch;
+  background-color: var(--white);
+  border: 1px solid var(--color-whitesmoke-300);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xl) 0;
+  min-height: 100px;
+}
+@media screen and (max-width: 450px) {
+  .searchBarParent {
+    flex-wrap: wrap;
+  }
+}

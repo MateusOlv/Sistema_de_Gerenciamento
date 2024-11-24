@@ -1,0 +1,38 @@
+.contentArea,
+.dashboard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contentArea {
+  flex: 1;
+  flex-direction: column;
+  gap: 39px;
+  max-width: calc(100% - 280px);
+}
+.dashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--grey-grey-50);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 227.7px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 925px) {
+  .contentArea {
+    max-width: 100%;
+  }
+  .dashboard {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contentArea {
+    gap: var(--gap-lgi);
+  }
+}

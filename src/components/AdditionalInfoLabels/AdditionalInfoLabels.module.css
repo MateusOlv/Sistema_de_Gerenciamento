@@ -1,0 +1,50 @@
+.gnero {
+  position: relative;
+  z-index: 1;
+}
+.fieldIconsChild {
+  height: 39.6px;
+  width: 451.3px;
+  position: relative;
+  border-radius: var(--br-6xs-1);
+  background-color: var(--color-whitesmoke-400);
+  display: none;
+  max-width: 100%;
+}
+.masculino,
+.vuesaxlineararrowDownIcon {
+  position: relative;
+  z-index: 2;
+}
+.vuesaxlineararrowDownIcon {
+  height: 18.3px;
+  width: 18.3px;
+}
+.additionalInfoLabels,
+.fieldIcons {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.fieldIcons {
+  border-radius: var(--br-6xs-1);
+  background-color: var(--color-whitesmoke-400);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-2xs-6) var(--padding-sm) var(--padding-2xs-7)
+    var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  z-index: 1;
+  color: var(--color-gray-500);
+}
+.additionalInfoLabels {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-4);
+  text-align: left;
+  font-size: var(--font-size-smi-2);
+  color: var(--color-gray-400);
+  font-family: var(--font-poppins);
+}
