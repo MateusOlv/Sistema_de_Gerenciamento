@@ -33,11 +33,11 @@ const Content = ({ className = "" }) => {
           placeholder="Insira a senha novamente"
         />
       </div>
-      <button className={styles.button}>
+      <a href="/" className={styles.button}>
         <div className={styles.buttonBase}>
-          <a href="/" className={styles.text}>Registrar</a>
+          <span className={styles.text}>Registrar</span>
         </div>
-      </button>
+      </a>
       <div className={styles.row}>
         <div className={styles.text1}>Já tem uma conta?</div>
         <div className={styles.button1}>

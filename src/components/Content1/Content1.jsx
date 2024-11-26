@@ -28,7 +28,7 @@ const Content1 = ({ className = "" }) => {
       </div>
       <a href="/" className={styles.button1}>
         <div className={styles.buttonBase1}>
-          <a className={styles.submitButtonLabel}>Entrar</a>
+          <span className={styles.submitButtonLabel}>Entrar</span>
         </div>
       </a>
       
