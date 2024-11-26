@@ -6,7 +6,6 @@
 .frameParent {
   flex-direction: column;
   justify-content: flex-start;
-  gap: var(--gap-17xl);
   max-width: 100%;
 }
 .registrar {
