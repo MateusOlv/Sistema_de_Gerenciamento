@@ -26,11 +26,11 @@ const Content1 = ({ className = "" }) => {
           <a href="#" className={styles.buttonLabel}>Esqueci a senha</a>
         </div>
       </div>
-      <button className={styles.button1}>
+      <a href="/" className={styles.button1}>
         <div className={styles.buttonBase1}>
-          <a href="/" className={styles.submitButtonLabel}>Entrar</a>
+          <a className={styles.submitButtonLabel}>Entrar</a>
         </div>
-      </button>
+      </a>
       
       <div className={styles.row1}>
         <div className={styles.text}>Não tem uma conta?</div>
