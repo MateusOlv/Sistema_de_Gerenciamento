@@ -80,6 +80,7 @@
   font-size: var(--sub-heading-semi-bold-size);
   color: var(--color-deepskyblue);
   font-family: var(--body-1-regular);
+  margin-top: 0;
 }
 @media screen and (max-width: 1050px) {
   .sideBar {
