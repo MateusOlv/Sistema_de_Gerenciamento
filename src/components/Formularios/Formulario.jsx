@@ -1,6 +1,6 @@
 import styles from "./Formulario.module.css";
 
-function Form(){
+function Formulario(){
     return(
         <main className={styles.main}>
             <form action="">
@@ -122,6 +122,33 @@ function Form(){
                     <label htmlFor="">Telefone: </label>
                     <input type="text" />
                 </section>
+                
+                <h2>Dados do Equipamento</h2>
+                <section className={styles.equipamento}>
+                    <label htmlFor="">COD(SAP): </label>
+                    <input type="text" />
+
+                    <label htmlFor="">Comprimento: </label>
+                    <input type="number" />
+
+                    <label htmlFor="">Largura: </label>
+                    <input type="number" />
+
+                    <label htmlFor="">Altura: </label>
+                    <input type="number" />
+
+                    <label htmlFor="">Peso: </label>
+                    <input type="number" />                
+
+                    <label htmlFor="">Valor: </label>
+                    <input type="number" />
+                    
+                    <label htmlFor="">Part Number: </label>
+                    <input type="number" />
+                    
+                    <label htmlFor="">Serial Number: </label>
+                    <input type="number" />
+                </section>
 
                 <input type="submit" value="Enviar"/>
                 
@@ -130,4 +157,4 @@ function Form(){
     );
 };
 
-export default Form;
+export default Formulario;

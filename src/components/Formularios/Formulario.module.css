@@ -24,8 +24,18 @@ input {
     box-shadow: 0px 0.414px 0.827px 0px rgba(16, 24, 40, 0.05);
 }
 
-input[type="text"] {
+input[type="text"], input[type="number"] {
     height: 15px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
 }
 
 div {
@@ -90,5 +100,13 @@ input[type="submit"]:hover {
 .responsavel {
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
+}
+
+.equipamento{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    flex-wrap: wrap;
     margin-top: 10px;
 }

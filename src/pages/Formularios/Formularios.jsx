@@ -15,7 +15,7 @@ const Formularios = () => {
         <SearchBarContainer />
         <section className={styles.contentWrapper}>
         <ContentArea>
-          <Formulario/>
+          <Formulario />
         </ContentArea>
         </section>
       </main>
