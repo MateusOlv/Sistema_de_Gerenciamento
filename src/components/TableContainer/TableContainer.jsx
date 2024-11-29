@@ -10,17 +10,9 @@ import TableRow from '@mui/material/TableRow';
 
 const columns = [
   { id: 'numero', label: 'numero', minWidth: 170 },
-  { id: 'code', label: 'Data Retorno/Prorrogação', minWidth: 100 },
   {
     id: 'Numero_SAP',
     label: 'Numero_SAP',
-    minWidth: 170,
-    align: 'right',
-    format: (value) => value.toLocaleString('en-US'),
-  },
-  {
-    id: 'ALIAS',
-    label: 'ALIAS',
     minWidth: 170,
     align: 'right',
     format: (value) => value.toLocaleString('en-US'),
@@ -35,13 +27,6 @@ const columns = [
   {
     id: 'Valor',
     label: 'Valor',
-    minWidth: 170,
-    align: 'right',
-    format: (value) => value.toFixed(2),
-  },
-  {
-    id: 'Part Number',
-    label: 'Part Number',
     minWidth: 170,
     align: 'right',
     format: (value) => value.toFixed(2),

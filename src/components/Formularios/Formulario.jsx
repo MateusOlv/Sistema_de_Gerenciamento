@@ -143,9 +143,6 @@ function Formulario(){
                     <label htmlFor="">Valor: </label>
                     <input type="number" />
                     
-                    <label htmlFor="">Part Number: </label>
-                    <input type="number" />
-                    
                     <label htmlFor="">Serial Number: </label>
                     <input type="number" />
                 </section>
